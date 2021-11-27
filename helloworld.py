@@ -1,3 +1,6 @@
+from in_development import add
+
+
 def print2(word, num=1):
     for x in range(num):
         print(f"{word} 2")
@@ -19,3 +22,6 @@ def pyramid(num=3):
 print2("hello world", 5)
 
 pyramid(5)
+
+x = add(2, 2)
+print(x)
