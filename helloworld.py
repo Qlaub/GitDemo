@@ -1,6 +1,6 @@
 def print2(word, num=1):
     for x in range(num):
-        print(word)
+        print(f"{word} 2")
 
 
-print("hello world")
+print2("hello world", 5)
